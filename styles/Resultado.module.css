@@ -15,12 +15,13 @@
 
     .resultado{
         background-color: #6c54d8;
-        
-        
         text-align: center;
-        margin-top: 20vh
+        margin-top: 60vh;
+      
     }
-    
+    .abacate{
+        padding-bottom: 10vh !important;
+    }
     .statistica{
         flex-direction: column;
     

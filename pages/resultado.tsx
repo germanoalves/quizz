@@ -31,7 +31,10 @@ export default function Resultado() {
                 <Estatistica texto="Erradas" valor={errou} corFundo="#EB3B52"/>
                 <Estatistica texto="Percentual" valor={`${percentual}%`} corFundo={corFundoPercentualAcertos()}/>
             </div>
-            <Botao href="/" texto="Tentar Novamente" />
+            <div className={styles.abacate}>
+                <Botao  href="/" texto="Tentar Novamente" />
+            </div>    
+            
         </div>
     )
 }
