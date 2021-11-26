@@ -12,7 +12,7 @@ const questoes: QuestaoModel[] = [
   new QuestaoModel(202, 'Qual fruto é conhecido no Norte e Nordeste como "jerimum"?', [
     RespostaModel.errada('Caju'),
     RespostaModel.errada('Côco'),
-    RespostaModel.errada('Chucu'),
+    RespostaModel.errada('Chuchu'),
     RespostaModel.certa('Abóbora'),
   ]),
 
@@ -26,7 +26,7 @@ const questoes: QuestaoModel[] = [
   new QuestaoModel(204, 'Qual é o triângulo que tem todos os lados diferentes?', [
     RespostaModel.errada('Equilátero'),
     RespostaModel.errada('Isóceles'),
-    RespostaModel.errada('TRapézio'),
+    RespostaModel.errada('Trapézio'),
     RespostaModel.certa('Escaleno'),
   ]),
 
