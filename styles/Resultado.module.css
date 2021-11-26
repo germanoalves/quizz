@@ -6,3 +6,23 @@
     height: 100vh;
     font-size: 2rem;
 }
+
+.statistica{
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .resultado{
+        background-color: #6c54d8;
+        
+        
+        text-align: center;
+        margin-top: 20vh
+    }
+    
+    .statistica{
+        flex-direction: column;
+    
+    }
+  }

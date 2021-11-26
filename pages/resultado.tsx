@@ -25,7 +25,7 @@ export default function Resultado() {
     return (
         <div className={styles.resultado}>
             <h1>Resultado Final</h1>
-            <div style={{ display: "flex" }}>
+            <div className={styles.statistica}>
                 <Estatistica texto="Perguntas" valor={total} />
                 <Estatistica texto="Certas" valor={certas} corFundo="#9CD2A4"/>
                 <Estatistica texto="Erradas" valor={errou} corFundo="#EB3B52"/>

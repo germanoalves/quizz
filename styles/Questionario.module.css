@@ -4,4 +4,17 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 }
+
+@media only screen and (max-width: 600px) {
+    .questionario {
+        margin-top: 25vh;
+        margin-bottom: 25vh;
+        width: 31vh;
+        float: right;
+    }
+    .questionario span {
+        text-align: center;
+    }
+  }

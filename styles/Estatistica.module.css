@@ -20,3 +20,16 @@
     font-size: 1.7rem;
     font-weight: 200;
 }
+
+
+.geral{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+    .geral{
+        display: flex;
+        flex-direction: column;
+    }
+  }
